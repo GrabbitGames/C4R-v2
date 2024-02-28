@@ -40,7 +40,7 @@ server.on("request", (req, res) => {
   });
   
   server.on("listening", () => {
-    console.log(`example uv app running on port 8080 ${process.env.PORT}`);
+    console.log(`example uv app running on port 5021 ${process.env.PORT}`);
   });
   
   server.listen({
